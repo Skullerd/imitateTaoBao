@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+}
+
+.login-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    background-color: burlywood;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.login-box .logo-box {
+    float: left;
+    margin-top: 118px;
+    margin-left: 25px;
+}
+
+.login-box .login-from {
+    float: right;
+    width: 300px;
+    height: 300px;
+
+}
+
+.login-box .login-from h1 {
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-box .login-from form {
+    margin-top: 25px;
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+    /* border: 1px solid darkblue; */
+}
+
+.login-box .login-from form .user-input {
+    margin-top: 45px;
+    padding-left: 30px;
+
+}
+
+.login-box .login-from form .user-input input,
+.login-box .login-from form .pwd-input input {
+    float: right;
+    margin-right: 40px;
+    height: 21px;
+
+}
+
+.login-box .login-from form .pwd-input {
+    margin-top: 25px;
+    padding-left: 46px;
+}
+
+.login-box .login-from form .submit-input input {
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
